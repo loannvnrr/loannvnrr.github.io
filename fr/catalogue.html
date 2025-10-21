@@ -1,0 +1,82 @@
+<!-- /fr/catalogue.html -->
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>TopRep Chine - Catalogue</title>
+  <meta name="description" content="Catalogue des fiches produits recommandées pour des répliques 1:1. Filtrez et recherchez par catégorie, prix, score et plus.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="Principale">
+      <a href="/fr/index.html">Accueil</a>
+      <a href="/fr/catalogue.html">Catalogue</a>
+      <a href="/fr/faq.html">FAQ</a>
+      <a href="/fr/contact.html">Contact</a>
+      <a href="/fr/mentions.html">Mentions légales</a>
+      <a href="/en/catalog.html">EN</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Catalogue</h1>
+    <section aria-labelledby="filtres">
+      <h2 id="filtres">Filtres et Recherche</h2>
+      <form id="filters-form">
+        <label for="search">Recherche :</label>
+        <input type="text" id="search" placeholder="Nom ou tags...">
+        
+        <label for="category">Catégorie :</label>
+        <select id="category">
+          <option value="">Toutes</option>
+          <option value="Chaussures">Chaussures</option>
+          <option value="Vêtements">Vêtements</option>
+          <option value="Accessoires">Accessoires</option>
+          <option value="Sacs">Sacs</option>
+          <option value="Sacoches">Sacoches</option>
+          <option value="Autres">Autres</option>
+        </select>
+        
+        <label for="price-min">Prix min (€) :</label>
+        <input type="number" id="price-min" min="0">
+        
+        <label for="price-max">Prix max (€) :</label>
+        <input type="number" id="price-max" min="0">
+        
+        <label for="score-min">Score min (0-10) :</label>
+        <input type="number" id="score-min" min="0" max="10" step="0.1">
+        
+        <label for="size">Taille :</label>
+        <input type="text" id="size" placeholder="ex: M, 42">
+        
+        <label for="seller">Vendeur :</label>
+        <input type="text" id="seller" placeholder="Nom du vendeur">
+        
+        <label for="batch">Batch :</label>
+        <input type="text" id="batch" placeholder="Nom du batch">
+        
+        <label for="sort">Trier par :</label>
+        <select id="sort">
+          <option value="score-desc">Score (décroissant)</option>
+          <option value="date-desc">Date de mise à jour (récente)</option>
+          <option value="price-asc">Prix (croissant)</option>
+        </select>
+        
+        <button type="button" id="apply-filters">Appliquer</button>
+      </form>
+    </section>
+    <section aria-labelledby="produits">
+      <h2 id="produits">Produits</h2>
+      <div id="product-list" class="product-grid"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Informations à titre informatif. Aucune affiliation ni rémunération. Les marques citées appartiennent à leurs propriétaires.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "slug": "hoodie-xyz",
+    "name": "XYZ Hoodie",
+    "category": "Clothing",
+    "score": 8.5,
+    "prix": 38,
+    "sizes": "S-XXL",
+    "seller": "ExampleSeller",
+    "batch": "Fall2025",
+    "dateMaj": "2025-10-21",
+    "liens": {
+      "official": "https://www.xyz-brand.example",
+      "supplier": "https://supplier.example/hoodie-xyz"
+    },
+    "images": [
+      {"src": "/images/hoodie-xyz-1.jpg", "alt": "XYZ Hoodie front view"},
+      {"src": "/images/hoodie-xyz-2.jpg", "alt": "XYZ Hoodie embroidery detail"}
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "sneakers-abc",
+    "name": "ABC Sneakers",
+    "category": "Shoes",
+    "score": 9.0,
+    "prix": 50,
+    "sizes": "36-45",
+    "seller": "ShoeSeller",
+    "batch": "Summer2025",
+    "dateMaj": "2025-10-15",
+    "liens": {
+      "official": "https://www.abc-brand.example",
+      "supplier": "https://supplier.example/sneakers-abc"
+    },
+    "images": [
+      {"src": "/images/sneakers-abc-1.jpg", "alt": "ABC Sneakers side view"}
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "bag-def",
+    "name": "DEF Bag",
+    "category": "Bags",
+    "score": 7.5,
+    "prix": 25,
+    "sizes": "One size",
+    "seller": "BagSeller",
+    "batch": "AllYear",
+    "dateMaj": "2025-09-30",
+    "liens": {
+      "official": "https://www.def-brand.example",
+      "supplier": "https://supplier.example/bag-def"
+    },
+    "images": [
+      {"src": "/images/bag-def-1.jpg", "alt": "DEF Bag front view"}
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "accessory-ghi",
+    "name": "GHI Accessory",
+    "category": "Accessories",
+    "score": 8.0,
+    "prix": 15,
+    "sizes": "One size",
+    "seller": "AccSeller",
+    "batch": "Winter2025",
+    "dateMaj": "2025-10-10",
+    "liens": {
+      "official": "https://www.ghi-brand.example",
+      "supplier": "https://supplier.example/accessory-ghi"
+    },
+    "images": [
+      {"src": "/images/accessory-ghi-1.jpg", "alt": "GHI Accessory detail"}
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "pouch-jkl",
+    "name": "JKL Pouch",
+    "category": "Pouches",
+    "score": 9.2,
+    "prix": 30,
+    "sizes": "One size",
+    "seller": "PouchSeller",
+    "batch": "Spring2025",
+    "dateMaj": "2025-10-05",
+    "liens": {
+      "official": "https://www.jkl-brand.example",
+      "supplier": "https://supplier.example/pouch-jkl"
+    },
+    "images": [
+      {"src": "/images/pouch-jkl-1.jpg", "alt": "JKL Pouch full view"}
+    ]
+  }
+]

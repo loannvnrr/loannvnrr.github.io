@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "slug": "hoodie-xyz",
+    "nom": "Hoodie XYZ",
+    "categorie": "Vêtements",
+    "score": 8.5,
+    "prix": 38,
+    "tailles": "S-XXL",
+    "vendeur": "ExempleSeller",
+    "batch": "Fall2025",
+    "dateMaj": "2025-10-21",
+    "liens": {
+      "officiel": "https://www.marque-xyz.exemple",
+      "fournisseur": "https://fournisseur.exemple/hoodie-xyz"
+    },
+    "images": [
+      {"src": "/images/hoodie-xyz-1.jpg", "alt": "Hoodie XYZ vue face"},
+      {"src": "/images/hoodie-xyz-2.jpg", "alt": "Hoodie XYZ détail broderie"}
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "sneakers-abc",
+    "nom": "Sneakers ABC",
+    "categorie": "Chaussures",
+    "score": 9.0,
+    "prix": 50,
+    "tailles": "36-45",
+    "vendeur": "ShoeSeller",
+    "batch": "Summer2025",
+    "dateMaj": "2025-10-15",
+    "liens": {
+      "officiel": "https://www.marque-abc.exemple",
+      "fournisseur": "https://fournisseur.exemple/sneakers-abc"
+    },
+    "images": [
+      {"src": "/images/sneakers-abc-1.jpg", "alt": "Sneakers ABC vue latérale"}
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "sac-def",
+    "nom": "Sac DEF",
+    "categorie": "Sacs",
+    "score": 7.5,
+    "prix": 25,
+    "tailles": "Unique",
+    "vendeur": "BagSeller",
+    "batch": "AllYear",
+    "dateMaj": "2025-09-30",
+    "liens": {
+      "officiel": "https://www.marque-def.exemple",
+      "fournisseur": "https://fournisseur.exemple/sac-def"
+    },
+    "images": [
+      {"src": "/images/sac-def-1.jpg", "alt": "Sac DEF vue avant"}
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "accessoire-ghi",
+    "nom": "Accessoire GHI",
+    "categorie": "Accessoires",
+    "score": 8.0,
+    "prix": 15,
+    "tailles": "Unique",
+    "vendeur": "AccSeller",
+    "batch": "Winter2025",
+    "dateMaj": "2025-10-10",
+    "liens": {
+      "officiel": "https://www.marque-ghi.exemple",
+      "fournisseur": "https://fournisseur.exemple/accessoire-ghi"
+    },
+    "images": [
+      {"src": "/images/accessoire-ghi-1.jpg", "alt": "Accessoire GHI détail"}
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "sacoche-jkl",
+    "nom": "Sacoche JKL",
+    "categorie": "Sacoches",
+    "score": 9.2,
+    "prix": 30,
+    "tailles": "Unique",
+    "vendeur": "PouchSeller",
+    "batch": "Spring2025",
+    "dateMaj": "2025-10-05",
+    "liens": {
+      "officiel": "https://www.marque-jkl.exemple",
+      "fournisseur": "https://fournisseur.exemple/sacoche-jkl"
+    },
+    "images": [
+      {"src": "/images/sacoche-jkl-1.jpg", "alt": "Sacoche JKL vue complète"}
+    ]
+  }
+]
